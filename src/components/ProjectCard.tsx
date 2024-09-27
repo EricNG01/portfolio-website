@@ -25,11 +25,11 @@ const ProjectCard: React.FC<ProjectData> = ({
         <div className="mb-10 grid gap-8 overflow-hidden rounded-xl border max-lg:border-none border-black/5 bg-gray-100 max-lg:bg-gradient-to-br max-lg:from-gray-300 max-lg:to-gray-50 lg:relative lg:grid-cols-2">
             <div className="pt-8 pr-10 pb-20 pl-8 text-left">
                 <p className={"text-2xl font-semibold pb-2"}>{title}</p>
-                <p className={"text-sm pb-4 flex gap-2 pr-2 min-[600px]:gap-6"}>
+                <p className={"text-sm pb-4 flex gap-2 pr-2 min-[600px]:gap-8 mt-2"}>
                     <p className={"content-center text-nowrap"}>Made with :</p>
-                    <span className={"flex min-[600px]:gap-4 gap-2"}>
+                    <span className={"flex min-[600px]:gap-6 gap-4 pl-2"}>
                         {techStack.map((tech, index) => (
-                            <img key={index} src={tech} alt={`Tech icon ${index}`} className="h-12 w-12"/>
+                            <img key={index} src={tech} alt={`Tech icon ${index}`} className="h-12 w-12 min-[600px]:hover:scale-150 transition"/>
                         ))}
                     </span>
                 </p>

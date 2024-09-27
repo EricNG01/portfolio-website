@@ -21,8 +21,8 @@ const projects = [
             "This portfolio showcases my personal projects and work experience, reflecting my journey as a developer. Each project demonstrates my problem-solving skills and creativity, providing insights into my approach to software development and design. The collection highlights my growth and commitment to delivering quality work while continuously learning and evolving in the field.",
         imageSrc: portfolioProject,
         altText: "portfolioProject",
-        demoLink: "https://yourportfolio.com",
-        githubLink: "https://github.com/yourusername/portfolio",
+        demoLink: "https://jolly-sand-035912100.5.azurestaticapps.net",
+        githubLink: "https://github.com/EricNG01/portfolio-website",
     },
     {
         title: "Movie Info Application",
@@ -31,7 +31,7 @@ const projects = [
             "The Movie Review Application is a full-stack web application built with React.js and Express.js, utilizing RESTful APIs such as OMDb, YouTube, and the New York Times to deliver detailed movie information, including reviews and trailers. It features a dynamic movie search function, is containerized with Docker for scalable deployment on Amazon AWS, and employs Amazon S3 and Redis for real-time visitor tracking. The project achieved a band score of 6 out of 7, showcasing its quality and functionality.",
         imageSrc: movieApp,
         altText: "movieApp",
-        githubLink: "https://github.com/yourusername/portfolio",
+        githubLink: "https://github.com/EricNG01/movieapp",
     },
     {
         title: "Marvel Soccer Team",
