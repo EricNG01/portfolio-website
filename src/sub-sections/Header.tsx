@@ -19,7 +19,7 @@ const InfoHeader = () => {
                             className="flex flex-row gap-2 rounded-xl bg-gray-200 px-4 py-4 text-gray-800 transition duration-200 hover:scale-110 hover:invert"
                         >
                             <img src={LinkedIn} alt={"LinkedInLink"} className={"w-8 h-8 content-center"}></img>
-                            <span className={"content-center font-semibold"}>LinkedIn</span>
+                            <span className={"content-center font-semibold max-[700px]:hidden"}>LinkedIn</span>
                         </a>
 
                         <a
@@ -29,7 +29,7 @@ const InfoHeader = () => {
                             className="flex flex-row gap-2 rounded-xl bg-gray-200 px-4 py-4 text-gray-800 transition duration-200 hover:scale-110 hover:invert"
                         >
                             <img src={GitHub} alt={"GitHub"} className={"w-8 h-8 content-center"}></img>
-                            <span className={"content-center font-semibold"}>GitHub</span>
+                            <span className={"content-center font-semibold max-[700px]:hidden"}>GitHub</span>
                         </a>
                     </div>
                 </div>
