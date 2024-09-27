@@ -18,7 +18,8 @@ const projects = [
         title: "Portfolio",
         techStack: [Azure, ReactJS, TypeScript, TailwindCss],
         description:
-            "This portfolio showcases my personal projects and work experience, reflecting my journey as a developer. Each project demonstrates my problem-solving skills and creativity, providing insights into my approach to software development and design. The collection highlights my growth and commitment to delivering quality work while continuously learning and evolving in the field.",
+            "\n" +
+            "This project is a portfolio website designed to display personal projects and professional experience. It features sections that highlight completed work, technical skills, and an overview of the developer's journey. The website is responsive and interactive, offering visitors an organized and clear presentation of the developer's capabilities and growth.",
         imageSrc: portfolioProject,
         altText: "portfolioProject",
         demoLink: "https://jolly-sand-035912100.5.azurestaticapps.net",
@@ -28,7 +29,7 @@ const projects = [
         title: "Movie Info Application",
         techStack: [AWS, Docker, ReactJS, Express, JavaScript],
         description:
-            "The Movie Review Application is a full-stack web application built with React.js and Express.js, utilizing RESTful APIs such as OMDb, YouTube, and the New York Times to deliver detailed movie information, including reviews and trailers. It features a dynamic movie search function, is containerized with Docker for scalable deployment on Amazon AWS, and employs Amazon S3 and Redis for real-time visitor tracking. The project achieved a band score of 6 out of 7, showcasing its quality and functionality.",
+            "A full-stack web application built with React.js and Express.js, utilizing RESTful APIs such as OMDb, YouTube, and the New York Times to deliver detailed movie information, including reviews and trailers. It features a dynamic movie search function, is containerized with Docker for scalable deployment on Amazon AWS, and employs Amazon S3 and Redis for real-time visitor tracking.",
         imageSrc: movieApp,
         altText: "movieApp",
         githubLink: "https://github.com/EricNG01/movieapp",
@@ -37,7 +38,7 @@ const projects = [
         title: "Marvel Soccer Team",
         techStack: [ReactJS, JavaScript],
         description:
-            "The Marvel Character Selection App is a dynamic single-page application that allows users to explore the Marvel universe through its open API. Users can browse a comprehensive list of Marvel characters, view detailed information, and select them to form a 6-aside soccer team. The app ensures the team includes at least one goalkeeper, one striker, one midfielder, and one defender, while also allowing for an additional outfield player.",
+            "A dynamic single-page application that allows users to explore the Marvel universe through its open API. Users can browse a comprehensive list of Marvel characters, view detailed information, and select them to form a 6-aside soccer team. The app ensures the team includes at least one goalkeeper, one striker, one midfielder, and one defender, while also allowing for an additional outfield player.",
         imageSrc: marvelSoccer,
         altText: "marvelSoccer",
         githubLink: "https://github.com/EricNG01/marvel-soccer-team",
