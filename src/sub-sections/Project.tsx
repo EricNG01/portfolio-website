@@ -11,15 +11,14 @@ import Docker from "../assets/Projects/docker.svg"
 import Express from "../assets/Skills/express.svg"
 import Azure from "../assets/Projects/azure.svg"
 
-
+const keywordClass = " font-bold not-italic text-black text-xl bg-gradient-to-r from-black to-black bg-no-repeat bg-keyword-background-no-underline bg-right-bottom transition-[background-size] duration-500 hover:bg-left-bottom hover:bg-keyword-background-underline"
 
 const projects = [
     {
         title: "Portfolio",
         techStack: [Azure, ReactJS, TypeScript, TailwindCss],
         description:
-            "\n" +
-            "This project is a portfolio website designed to display personal projects and professional experience. It features sections that highlight completed work, technical skills, and an overview of the developer's journey. The website is responsive and interactive, offering visitors an organized and clear presentation of the developer's capabilities and growth.",
+            <span className={"text-lg pt-4 text-gray-900"}>This project is a portfolio website designed to display personal projects and professional experience. It features sections that highlight completed work, technical skills, and an overview of the developer's journey. The website is responsive and interactive, offering visitors an organized and clear presentation of the developer's capabilities and growth.</span>,
         imageSrc: portfolioProject,
         altText: "portfolioProject",
         demoLink: "https://jolly-sand-035912100.5.azurestaticapps.net",
@@ -29,7 +28,7 @@ const projects = [
         title: "Movie Info Application",
         techStack: [AWS, Docker, ReactJS, Express, JavaScript],
         description:
-            "A full-stack web application built with React.js and Express.js, utilizing RESTful APIs such as OMDb, YouTube, and the New York Times to deliver detailed movie information, including reviews and trailers. It features a dynamic movie search function, is containerized with Docker for scalable deployment on Amazon AWS, and employs Amazon S3 and Redis for real-time visitor tracking.",
+            <span className={"text-lg pt-4 text-gray-900"} >A full-stack web application built with <em className={keywordClass}>React.js</em> and <em className={keywordClass}>Express.js</em>, utilizing <em className={keywordClass}>RESTful</em> APIs such as OMDb, YouTube, and the New York Times to deliver detailed movie information, including reviews and trailers. It features a dynamic movie search function, is containerized with <em className={keywordClass}>Docker</em> for scalable deployment on <em className={keywordClass}>Amazon AWS</em>, and employs <em className={keywordClass}>Amazon S3</em> and <em className={keywordClass}>Redis</em> for real-time visitor tracking.</span>,
         imageSrc: movieApp,
         altText: "movieApp",
         githubLink: "https://github.com/EricNG01/movieapp",
@@ -38,7 +37,7 @@ const projects = [
         title: "Marvel Soccer Team",
         techStack: [ReactJS, JavaScript],
         description:
-            "A dynamic single-page application that allows users to explore the Marvel universe through its open API. Users can browse a comprehensive list of Marvel characters, view detailed information, and select them to form a 6-aside soccer team. The app ensures the team includes at least one goalkeeper, one striker, one midfielder, and one defender, while also allowing for an additional outfield player.",
+            <span className={"text-lg pt-4"}>A dynamic single-page application that allows users to explore the Marvel universe through its open API. Users can browse a comprehensive list of Marvel characters, view detailed information, and select them to form a 6-aside soccer team. The app ensures the team includes at least one goalkeeper, one striker, one midfielder, and one defender, while also allowing for an additional outfield player.</span>,
         imageSrc: marvelSoccer,
         altText: "marvelSoccer",
         githubLink: "https://github.com/EricNG01/marvel-soccer-team",

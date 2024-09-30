@@ -1,10 +1,10 @@
-import React from "react";
+import React, {ReactNode} from "react";
 import GitHub from "../assets/Projects/github.svg"
 import Run from "../assets/Projects/run.svg"
 interface ProjectData {
     title: string;
     techStack: string[];
-    description: string;
+    description: ReactNode;
     imageSrc: string;
     altText: string;
     demoLink?: string;
@@ -29,11 +29,11 @@ const ProjectCard: React.FC<ProjectData> = ({
                     <p className={"content-center text-nowrap"}>Made with :</p>
                     <span className={"flex min-[600px]:gap-6 gap-4 pl-2"}>
                         {techStack.map((tech, index) => (
-                            <img key={index} src={tech} alt={`Tech icon ${index}`} className="h-12 w-12 min-[600px]:hover:scale-150 transition"/>
+                            <img key={index} src={tech} alt={`Tech icon ${index}`} className="h-12 w-12 transition min-[600px]:hover:scale-150"/>
                         ))}
                     </span>
                 </p>
-                <p className={"text-lg pt-4"}>{description}</p>
+                <p>{description}</p>
                 <div className="mt-8 flex space-x-6">
                     {githubLink && (
                         <a
