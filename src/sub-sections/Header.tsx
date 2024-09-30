@@ -10,7 +10,7 @@ const InfoHeader = () => {
             <div className="mx-10 mt-4 mb-20 flex flex-row items-center justify-center gap-10 p-5">
                 <div className="flex flex-col">
                     <h1 className="text-4xl font-bold">Hello! I'm Eric.</h1>
-                    <h2 className="mt-2 text-2xl mb-4">A Passionate Engineering Graduate Ready to Innovate.</h2>
+                    <h2 className="mt-2 mb-4 text-2xl">A Passionate Engineering Graduate Ready to Innovate.</h2>
                     <div className={"flex items-center content-start mt-4 space-x-8"}>
                         <a
                             href={LinkedInLink}
