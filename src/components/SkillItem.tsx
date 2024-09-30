@@ -14,6 +14,7 @@ const SkillItem: React.FC<SkillItemProps> = ({ imgSrc, altText, skillName, index
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
                         entry.target.classList.add("skill-visible");
+                        entry.target.classList.add("hover:scale-[120%]");
                     }
                 });
             },
@@ -33,12 +34,12 @@ const SkillItem: React.FC<SkillItemProps> = ({ imgSrc, altText, skillName, index
     return (
     <span
         ref={skillRef}
-        className="flex flex-col items-center px-2 transition duration-300 skill-pop hover:scale-[120%] min-[1350px]:px-2 min-[660px]:px-6 min-[800px]:px-12"
+        className="flex flex-col items-center px-2 transition skill-pop hover:scale-[120%] min-[1350px]:px-2 min-[660px]:px-6 min-[800px]:px-12"
         style={{
             animationDelay: `${index * 0.2}s`,
         }}
     >
-      <img src={imgSrc} alt={altText} width={"100"} height={"100"} className={"max-[360px]:w-[75px] max-[360px]:h-[75px]"}/>
+      <img src={imgSrc} alt={altText} width={"100"} height={"100"} className={"max-[360px]:w-[75px] max-[360px]:h-[75px] "}/>
       <p className="text-center text-xl">{skillName}</p>
     </span>
     );

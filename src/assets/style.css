@@ -35,10 +35,12 @@ body {
 .skill-pop {
     opacity: 0;
     transform: translateY(20px);
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .skill-visible {
     animation: popUp 0.6s forwards;
 }
-
+.skill-visible:hover {
+    scale:125%;
+}
