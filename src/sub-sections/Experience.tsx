@@ -16,7 +16,7 @@ const experiences: Experience[] = [
         title: "Software Engineer Intern - Remote",
         company: "Aubot - Brisbane",
         duration: "May 2024 - Aug 2024",
-        description: "Contributed to the development of an online programming language learning platform for students ranging from Year 1 to college level. Focused on the Java and advanced Python sections, performing user testing and bug verification on lesson content. Ensured accuracy and functionality of code exercises, resolving bugs and errors in lesson materials. Collaborated with the development team to enhance platform usability and educational value, contributing to project improvements.",
+        description: "Contributed to the development of an online programming language learning platform for students ranging from Year 1 to college level. Focused on 24 chapters within the Java and advanced Python sections, performing user testing and bug verification on lesson content. Ensured accuracy and functionality of code exercises, resolving bugs and errors in lesson materials. Collaborated with the development team to enhance platform usability and educational value, contributing to project improvements.",
     },
     {
         title: "Kitchen hand - Part-time",

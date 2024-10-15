@@ -3,6 +3,7 @@ import SkillGroup from "../components/SkillGroup";
 
 import WebDev from "../assets/Skills/web-development.svg";
 import ReactJS from "../assets/Skills/reactJS.svg";
+import ExpressJS from "../assets/Skills/express.svg"
 import HTML5 from "../assets/Skills/html5.svg";
 import CSS from "../assets/Skills/css.svg";
 import TailwindCSS from "../assets/Skills/tailwindcss.svg";
@@ -38,6 +39,7 @@ const SkillsSection: React.FC = () => {
                         { src: NodeJS, alt: "NodeJS", label: "NodeJS" },
                         { src: JS, alt: "JS", label: "JS" },
                         { src: TS, alt: "TS", label: "TS" },
+                        { src: ExpressJS, alt: "Express", label: "Express" },
                     ]}
                 />
                 <SkillGroup
